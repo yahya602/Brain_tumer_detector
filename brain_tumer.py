@@ -2,7 +2,7 @@ import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
 
-st.title("Brain Tumer Detector")
+st.title("🧠 Brain Tumer Detector")
 
 model = YOLO("best.pt")
 
